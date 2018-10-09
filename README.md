@@ -1,11 +1,9 @@
-# Griddle-Pie
-Computing pi via the griddle pi method.
-
 Name: Hrishee Shastri
 Calculating pi using the Griddle Pie Method. 
 README
 
 Question 1 Output:
+
     cout << gridpi(10);     // Output 3.52
     cout << gridpi(100);    // Output 3.1812
     cout << gridpi(1000);   // Output 3.14554
@@ -14,6 +12,7 @@ Question 1 Output:
 
 
 Question 2 Complexity and timing:
+
     Complexity analysis: gridpi is O(n^2) where n = npoints. 
     This is because the inner for-loop runs n times from i = 0 to i = n, 
     which in turn runs n times from j = 0 to j = n -- the total number of iterations is n*n. 
