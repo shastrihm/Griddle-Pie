@@ -24,8 +24,8 @@ Question 2 Complexity and timing gridpie:
     Runtime for gridpi(1000):   0m0.293s
     Runtime for gridpi(10000):  0m27.949s
 
-    The runtimes are increasing as n increases, generally by an order of magnitude (0.293s to 27.949s is an outlier)
-    as n grows by a factor of 10. The exact algorithmic complexity of gridpi is not completely clear from the runtimes, 
+    The runtimes are increasing as n increases, generally by an order of magnitude as n grows by a factor of 10. 
+    The exact algorithmic complexity of gridpi is not completely clear from the runtimes, 
     but the growing pattern suggests that is in some form of polynomial time, which is expected.
 
 
