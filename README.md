@@ -34,7 +34,12 @@ Question 3 timing with constexpr gridpi2:
     gridpi2(1000):      3.14554            0m0.009s
 
     The actual estimates of pi haven't changed, which is expected-- the computation to obtain it hasn't changed.
-    The runtime for all gridpi2 inputs hovers around 0.009 seconds, which is a significant improvement to the increasing runtime of gridpi. This is probably because the constexpr allows the compiler to evaluate the output at compile time, so the executable .out file just spits out the result without needing to do any computation.
+    The runtime for all gridpi2 inputs hovers around 0.009 seconds, which is a significant improvement from 
+    the increasing runtime of gridpi. This is probably because the constexpr allows the compiler to 
+    evaluate the output at compile time, so the executable .out file just spits out the result without needing 
+    to do any computation.
 
-    However, I noticed that the compile time is significantly longer when constexpr is used. This is probably due to the added difficulty of trying to run something while compiling.
+    However, I noticed that the compile time is significantly longer when constexpr 
+    is used. This is probably due to the added difficulty of trying to run something 
+    while compiling.
 
