@@ -1,5 +1,7 @@
 Name: Hrishee Shastri
+
 Calculating pi using the Griddle Pie Method. 
+
 README
 
 Question 1 Output:
