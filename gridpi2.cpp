@@ -5,7 +5,7 @@
 
 #include <iostream>     // for cout 
 #include <cmath>       // for hypot()
-#include <array>     // to model point
+
 using namespace std;  
 
 
